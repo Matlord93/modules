@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Tests\Commands\Commands;
+namespace Matlord\Modules\Tests\Commands\Commands;
 
-use Caffeinated\Modules\Tests\BaseTestCase;
+use Matlord\Modules\Tests\BaseTestCase;
 
 class CommandModuleEnableTest extends BaseTestCase
 {

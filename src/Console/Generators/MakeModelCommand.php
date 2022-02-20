@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Matlord\Modules\Console\Generators;
 
 use Illuminate\Support\Str;
-use Caffeinated\Modules\Console\GeneratorCommand;
+use Matlord\Modules\Console\GeneratorCommand;
 
 class MakeModelCommand extends GeneratorCommand
 {
