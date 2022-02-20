@@ -1,7 +1,7 @@
 {
-    "name": "caffeinated/modules",
+    "name": "matlord/modules",
     "description": "Laravel Modules",
-    "keywords": ["modules", "laravel", "caffeinated"],
+    "keywords": ["modules", "laravel", "matlord"],
     "license": "MIT",
     "authors": [
         {
@@ -26,12 +26,12 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Caffeinated\\Modules\\": "src/"
+            "Matlord\\Modules\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Caffeinated\\Modules\\Tests\\": "tests"
+            "Matlord\\Modules\\Tests\\": "tests"
         }
     },
     "suggest": {
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Modules\\ModulesServiceProvider"
+                "Matlord\\Modules\\ModulesServiceProvider"
             ],
             "aliases": {
-                "Module": "Caffeinated\\Modules\\Facades\\Module"
+                "Module": "Matlord\\Modules\\Facades\\Module"
             }
         }
     }
