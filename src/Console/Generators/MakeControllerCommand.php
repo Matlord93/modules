@@ -50,20 +50,7 @@ class MakeControllerCommand extends GeneratorCommand
 
         return __DIR__ . '/stubs/controller.stub';
     }
-
-    /**
-     * Get the default namespace for the class.
-     *
-     * @param string $rootNamespace
-     *
-     * @return string
-     * @throws \Matlord\Modules\Exceptions\ModuleNotFoundException
-     */
-    protected function getDefaultNamespace($rootNamespace)
-    {
-        return module_class($this->argument('slug'), 'Http\\Controllers', $this->option('location'));
-    }
-
+    
     /**
      * Get the default namespace for the class.
      *
