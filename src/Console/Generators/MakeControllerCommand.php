@@ -63,9 +63,6 @@ class MakeControllerCommand extends GeneratorCommand
     {
         return module_class($this->argument('slug'), 'Http\\Controllers', $this->option('location'));
     }
-}
-
-    }
 
     /**
      * Get the default namespace for the class.
