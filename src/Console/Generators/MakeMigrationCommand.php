@@ -3,7 +3,7 @@
 namespace Matlord\Modules\Console\Generators;
 
 use Illuminate\Console\Command;
-use Symfony\Component\Console\Input\InputOption;
+use Str;
 
 class MakeMigrationCommand extends Command
 {
@@ -45,7 +45,7 @@ class MakeMigrationCommand extends Command
         unset($options['--location']);
 
         $modulePath = module_path($this->argument('slug'), 'Database/Migrations', $this->option('location'));
-        $options['--path'] = str_replace(realpath(base_path()), '', realpath($modulePath));
+        $options['--path'] = Str::replaceFirst(realpath(base_path()), '', realpath($modulePath));
         $options['--path'] = ltrim($options['--path'], '/');
 
         return $this->call('make:migration', array_merge($arguments, $options));
