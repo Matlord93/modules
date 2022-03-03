@@ -28,6 +28,7 @@ class GeneratorServiceProvider extends ServiceProvider
             'command.make.module.policy'     => \Matlord\Modules\Console\Generators\MakePolicyCommand::class,
             'command.make.module.provider'   => \Matlord\Modules\Console\Generators\MakeProviderCommand::class,
             'command.make.module.request'    => \Matlord\Modules\Console\Generators\MakeRequestCommand::class,
+            'command.make.module.resource'   => \Matlord\Modules\Console\Generators\MakeResourceCommand::class,
             'command.make.module.seeder'     => \Matlord\Modules\Console\Generators\MakeSeederCommand::class,
             'command.make.module.test'       => \Matlord\Modules\Console\Generators\MakeTestCommand::class,
             'command.make.module.job'        => \Matlord\Modules\Console\Generators\MakeJobCommand::class,
