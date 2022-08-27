@@ -1,9 +1,9 @@
 <?php
 
-namespace Matlord\Modules\Tests\Commands\Generators;
+namespace Caffeinated\Modules\Tests\Commands\Generators;
 
 use Spatie\Snapshots\MatchesSnapshots;
-use Matlord\Modules\Tests\BaseTestCase;
+use Caffeinated\Modules\Tests\BaseTestCase;
 
 class CommandMakeModuleTest extends BaseTestCase
 {

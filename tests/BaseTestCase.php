@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Tests;
+namespace Caffeinated\Modules\Tests;
 
 use Illuminate\Support\Facades\File;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
@@ -29,7 +29,7 @@ abstract class BaseTestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            \Matlord\Modules\ModulesServiceProvider::class
+            \Caffeinated\Modules\ModulesServiceProvider::class
         ];
     }
 
@@ -40,7 +40,7 @@ abstract class BaseTestCase extends OrchestraTestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Module' => \Matlord\Modules\Facades\Module::class
+            'Module' => \Caffeinated\Modules\Facades\Module::class
         ];
     }
 

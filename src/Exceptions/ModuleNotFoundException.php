@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Exceptions;
+namespace Caffeinated\Modules\Exceptions;
 
 class ModuleNotFoundException extends \Exception
 {

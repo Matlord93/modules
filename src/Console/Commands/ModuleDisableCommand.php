@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Console\Commands;
+namespace Caffeinated\Modules\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;

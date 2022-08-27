@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Console;
+namespace Caffeinated\Modules\Console;
 
 use Illuminate\Console\GeneratorCommand as LaravelGeneratorCommand;
 use Illuminate\Support\Str;

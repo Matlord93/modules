@@ -1,9 +1,9 @@
 <?php
 
-namespace Matlord\Modules\Console\Commands;
+namespace Caffeinated\Modules\Console\Commands;
 
 use Illuminate\Console\Command;
-use Matlord\Modules\Repositories\Repository;
+use Caffeinated\Modules\Repositories\Repository;
 
 class ModuleListCommand extends Command
 {

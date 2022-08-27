@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Tests;
+namespace Caffeinated\Modules\Tests;
 
 class TraitsTest extends BaseTestCase
 {
@@ -27,7 +27,7 @@ class TraitsTest extends BaseTestCase
 
 class DummyModelWithTraits
 {
-    use \Matlord\Modules\Traits\MigrationTrait;
+    use \Caffeinated\Modules\Traits\MigrationTrait;
 }
 
 class DummyModelWithoutTraits

@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Providers;
+namespace Caffeinated\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;

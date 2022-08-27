@@ -1,13 +1,13 @@
 <?php
 
-namespace Matlord\Modules\Console\Commands;
+namespace Caffeinated\Modules\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Console\ConfirmableTrait;
-use Matlord\Modules\RepositoryManager;
+use Caffeinated\Modules\RepositoryManager;
 use Illuminate\Database\Migrations\Migrator;
-use Matlord\Modules\Repositories\Repository;
+use Caffeinated\Modules\Repositories\Repository;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -83,7 +83,7 @@ class ModuleMigrateResetCommand extends Command
      * migrated up as. This ensures the database is properly reversed
      * without conflict.
      *
-     * @param \Matlord\Modules\Repositories\Repository $repository
+     * @param \Caffeinated\Modules\Repositories\Repository $repository
      *
      * @return mixed
      */
@@ -133,7 +133,7 @@ class ModuleMigrateResetCommand extends Command
     /**
      * Generate a list of all migration paths, given the arguments/operations supplied.
      *
-     * @param \Matlord\Modules\Repositories\Repository $repository
+     * @param \Caffeinated\Modules\Repositories\Repository $repository
      *
      * @return array
      */
@@ -152,7 +152,7 @@ class ModuleMigrateResetCommand extends Command
     /**
      * Using the arguments, generate a list of slugs to reset the migrations for.
      *
-     * @param \Matlord\Modules\Repositories\Repository $repository
+     * @param \Caffeinated\Modules\Repositories\Repository $repository
      *
      * @return \Illuminate\Support\Collection
      */
@@ -174,7 +174,7 @@ class ModuleMigrateResetCommand extends Command
      *
      * We will accept a slug as long as it is not empty and is enalbed (or force is passed).
      *
-     * @param \Matlord\Modules\Repositories\Repository $repository
+     * @param \Caffeinated\Modules\Repositories\Repository $repository
      *
      * @return bool
      */
@@ -227,7 +227,7 @@ class ModuleMigrateResetCommand extends Command
      * Get migrations path.
      *
      * @param string $slug
-     * @param \Matlord\Modules\Repositories\Repository $repository
+     * @param \Caffeinated\Modules\Repositories\Repository $repository
      *
      * @return string
      */

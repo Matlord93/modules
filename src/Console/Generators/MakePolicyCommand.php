@@ -1,8 +1,8 @@
 <?php
 
-namespace Matlord\Modules\Console\Generators;
+namespace Caffeinated\Modules\Console\Generators;
 
-use Matlord\Modules\Console\GeneratorCommand;
+use Caffeinated\Modules\Console\GeneratorCommand;
 
 class MakePolicyCommand extends GeneratorCommand
 {

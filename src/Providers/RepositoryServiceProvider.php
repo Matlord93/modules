@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Providers;
+namespace Caffeinated\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -22,6 +22,6 @@ class RepositoryServiceProvider extends ServiceProvider
         $default = config('modules.default_driver');
         $driver  = config('modules.drivers.'.$default);
 
-        $this->app->bind('Matlord\Modules\Contracts\Repository', $driver);
+        $this->app->bind('Caffeinated\Modules\Contracts\Repository', $driver);
     }
 }

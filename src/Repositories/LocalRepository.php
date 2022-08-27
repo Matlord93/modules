@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Repositories;
+namespace Caffeinated\Modules\Repositories;
 
 use Illuminate\Support\Str;
 

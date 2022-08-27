@@ -1,9 +1,9 @@
 <?php
 
-namespace Matlord\Modules\Console\Generators;
+namespace Caffeinated\Modules\Console\Generators;
 
 use Illuminate\Support\Str;
-use Matlord\Modules\Console\GeneratorCommand;
+use Caffeinated\Modules\Console\GeneratorCommand;
 
 class MakeModelCommand extends GeneratorCommand
 {
@@ -72,6 +72,6 @@ class MakeModelCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return module_class($this->argument('slug'), 'Models', $this->option('location'));
+        return module_class($this->argument('slug'), 'Models');
     }
 }

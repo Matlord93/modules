@@ -1,13 +1,13 @@
 <?php
 
-use Matlord\Modules\Exceptions\ModuleNotFoundException;
+use Caffeinated\Modules\Exceptions\ModuleNotFoundException;
 
 if (!function_exists('modules')) {
     /**
      * Get modules repository.
      *
      * @param string $location
-     * @return \Matlord\Modules\RepositoryManager|\Matlord\Modules\Repositories\Repository
+     * @return \Caffeinated\Modules\RepositoryManager|\Caffeinated\Modules\Repositories\Repository
      */
     function modules($location = null) {
         if ($location) {
@@ -27,7 +27,7 @@ if (!function_exists('module_path')) {
      *
      * @param string|null $location
      * @return string
-     * @throws \Matlord\Modules\Exceptions\ModuleNotFoundException
+     * @throws \Caffeinated\Modules\Exceptions\ModuleNotFoundException
      */
     function module_path($slug = null, $file = '', $location = null)
     {
@@ -63,7 +63,7 @@ if (!function_exists('module_class')) {
      * @param string $class
      * @param string $location
      * @return string
-     * @throws \Matlord\Modules\Exceptions\ModuleNotFoundException
+     * @throws \Caffeinated\Modules\Exceptions\ModuleNotFoundException
      */
     function module_class($slug, $class, $location = null)
     {

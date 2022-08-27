@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Contracts;
+namespace Caffeinated\Modules\Contracts;
 
 interface Repository
 {

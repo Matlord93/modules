@@ -1,8 +1,8 @@
 <?php
 
-namespace Matlord\Modules\Tests\Commands\Commands;
+namespace Caffeinated\Modules\Tests\Commands\Commands;
 
-use Matlord\Modules\Tests\BaseTestCase;
+use Caffeinated\Modules\Tests\BaseTestCase;
 
 class CommandModuleMigrateRollbackTest extends BaseTestCase
 {

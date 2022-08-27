@@ -1,12 +1,12 @@
 <?php
 
-namespace Matlord\Modules;
+namespace Caffeinated\Modules;
 
 use Illuminate\Support\ServiceProvider;
-use Matlord\Modules\Contracts\Repository;
-use Matlord\Modules\Providers\BladeServiceProvider;
-use Matlord\Modules\Providers\ConsoleServiceProvider;
-use Matlord\Modules\Providers\GeneratorServiceProvider;
+use Caffeinated\Modules\Contracts\Repository;
+use Caffeinated\Modules\Providers\BladeServiceProvider;
+use Caffeinated\Modules\Providers\ConsoleServiceProvider;
+use Caffeinated\Modules\Providers\GeneratorServiceProvider;
 
 class ModulesServiceProvider extends ServiceProvider
 {

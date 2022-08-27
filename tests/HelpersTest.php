@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Tests;
+namespace Caffeinated\Modules\Tests;
 
 class HelpersTest extends BaseTestCase
 {

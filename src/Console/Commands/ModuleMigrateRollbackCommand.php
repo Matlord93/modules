@@ -1,13 +1,13 @@
 <?php
 
-namespace Matlord\Modules\Console\Commands;
+namespace Caffeinated\Modules\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
-use Matlord\Modules\RepositoryManager;
+use Caffeinated\Modules\RepositoryManager;
 use Illuminate\Database\Migrations\Migrator;
-use Matlord\Modules\Traits\MigrationTrait;
-use Matlord\Modules\Repositories\Repository;
+use Caffeinated\Modules\Traits\MigrationTrait;
+use Caffeinated\Modules\Repositories\Repository;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -79,7 +79,7 @@ class ModuleMigrateRollbackCommand extends Command
     /**
      * Get all of the migration paths.
      *
-     * @param \Matlord\Modules\Repositories\Repository $repository
+     * @param \Caffeinated\Modules\Repositories\Repository $repository
      *
      * @return array
      */
