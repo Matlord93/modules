@@ -1,9 +1,9 @@
 <?php
 
-namespace Matlord\Modules\Console\Generators;
+namespace Caffeinated\Modules\Console\Generators;
 
 use Symfony\Component\Console\Input\InputOption;
-use Matlord\Modules\Console\GeneratorCommand;
+use Caffeinated\Modules\Console\GeneratorCommand;
 
 class MakeControllerCommand extends GeneratorCommand
 {
@@ -15,7 +15,6 @@ class MakeControllerCommand extends GeneratorCommand
     protected $signature = 'make:module:controller
     	{slug : The slug of the module}
     	{name : The name of the controller class}
-    	{--api : Generate a module API resource controller class (exclude create & edit method)}
     	{--resource : Generate a module resource controller class}
     	{--location= : The modules location to create the module controller class in}';
 
@@ -40,23 +39,19 @@ class MakeControllerCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        if ($this->option('api')) {
-            return __DIR__ . '/stubs/controller.api.stub';
-        }
-
         if ($this->option('resource')) {
             return __DIR__ . '/stubs/controller.resource.stub';
         }
 
         return __DIR__ . '/stubs/controller.stub';
     }
-    
+
     /**
      * Get the default namespace for the class.
      *
      * @param string $rootNamespace
      * @return string
-     * @throws \Matlord\Modules\Exceptions\ModuleNotFoundException
+     * @throws \Caffeinated\Modules\Exceptions\ModuleNotFoundException
      */
     protected function getDefaultNamespace($rootNamespace)
     {

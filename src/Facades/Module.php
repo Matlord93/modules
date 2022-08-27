@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Facades;
+namespace Caffeinated\Modules\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Matlord\Modules;
+namespace Caffeinated\Modules;
 
 use Exception;
 use Illuminate\Foundation\Application;
-use Matlord\Modules\Repositories\Repository;
-use Matlord\Modules\Exceptions\ModuleNotFoundException;
+use Caffeinated\Modules\Repositories\Repository;
+use Caffeinated\Modules\Exceptions\ModuleNotFoundException;
 
 class RepositoryManager
 {
@@ -96,7 +96,7 @@ class RepositoryManager
     }
 
     /**
-     * @return \Matlord\Modules\Repositories\Repository[]
+     * @return \Caffeinated\Modules\Repositories\Repository[]
      */
     public function repositories()
     {
@@ -105,7 +105,7 @@ class RepositoryManager
 
     /**
      * @param string $location
-     * @return \Matlord\Modules\Repositories\Repository
+     * @return \Caffeinated\Modules\Repositories\Repository
      * @throws \Exception
      */
     protected function repository($location = null)

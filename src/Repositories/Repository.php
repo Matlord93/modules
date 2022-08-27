@@ -1,10 +1,10 @@
 <?php
 
-namespace Matlord\Modules\Repositories;
+namespace Caffeinated\Modules\Repositories;
 
 use Exception;
 use Illuminate\Support\Str;
-use Matlord\Modules\Contracts\Repository as RepositoryContract;
+use Caffeinated\Modules\Contracts\Repository as RepositoryContract;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Filesystem\Filesystem;
 

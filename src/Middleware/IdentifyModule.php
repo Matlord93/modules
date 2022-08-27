@@ -1,21 +1,21 @@
 <?php
 
-namespace Matlord\Modules\Middleware;
+namespace Caffeinated\Modules\Middleware;
 
-use Matlord\Modules\RepositoryManager;
+use Caffeinated\Modules\RepositoryManager;
 use Closure;
 
 class IdentifyModule
 {
     /**
-     * @var Matlord\Modules
+     * @var Caffeinated\Modules
      */
     protected $module;
 
     /**
      * Create a new IdentifyModule instance.
      *
-     * @param Matlord\Modules $module
+     * @param Caffeinated\Modules $module
      */
     public function __construct(RepositoryManager $module)
     {

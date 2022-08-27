@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Support;
+namespace Caffeinated\Modules\Support;
 
 use Illuminate\Support\Facades\Gate as IlluminateGate;
 

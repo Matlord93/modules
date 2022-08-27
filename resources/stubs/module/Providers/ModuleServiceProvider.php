@@ -2,7 +2,7 @@
 
 namespace DummyNamespace\Providers;
 
-use Matlord\Modules\Support\ServiceProvider;
+use Caffeinated\Modules\Support\ServiceProvider;
 
 class DummyProvider extends ServiceProvider
 {
@@ -19,6 +19,7 @@ class DummyProvider extends ServiceProvider
         if(!$this->app->configurationIsCached()) {
             $this->loadConfigsFrom(module_path('DummySlug', 'ConfigMapping', 'DummyLocation'));
         }
+        $this->loadFactoriesFrom(module_path('DummySlug', 'DatabaseFactoriesMapping', 'DummyLocation'));
     }
 
     /**

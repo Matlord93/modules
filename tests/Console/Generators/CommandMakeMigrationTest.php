@@ -1,8 +1,8 @@
 <?php
 
-namespace Matlord\Modules\Tests\Commands\Generators;
+namespace Caffeinated\Modules\Tests\Commands\Generators;
 
-use Matlord\Modules\Tests\BaseTestCase;
+use Caffeinated\Modules\Tests\BaseTestCase;
 use Spatie\Snapshots\MatchesSnapshots;
 
 class CommandMakeMigrationTest extends BaseTestCase

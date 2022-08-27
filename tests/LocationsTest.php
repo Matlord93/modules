@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Tests;
+namespace Caffeinated\Modules\Tests;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Schema;
 class LocationsTest extends BaseTestCase
 {
     /**
-     * @var \Matlord\Modules\Repositories\Repository
+     * @var \Caffeinated\Modules\Repositories\Repository
      */
     protected $repository;
 

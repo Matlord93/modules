@@ -1,6 +1,6 @@
 <?php
 
-namespace Matlord\Modules\Database\Migrations;
+namespace Caffeinated\Modules\Database\Migrations;
 
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
 use Illuminate\Database\Migrations\MigrationRepositoryInterface;

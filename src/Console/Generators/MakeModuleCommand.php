@@ -1,11 +1,11 @@
 <?php
 
-namespace Matlord\Modules\Console\Generators;
+namespace Caffeinated\Modules\Console\Generators;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Matlord\Modules\RepositoryManager;
+use Caffeinated\Modules\RepositoryManager;
 use Symfony\Component\Console\Helper\ProgressBar;
 
 class MakeModuleCommand extends Command
@@ -25,7 +25,7 @@ class MakeModuleCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new Matlord module and bootstrap it';
+    protected $description = 'Create a new Caffeinated module and bootstrap it';
 
     /**
      * The modules instance.

@@ -1,10 +1,10 @@
 <?php
 
-namespace Matlord\Modules\Console\Commands;
+namespace Caffeinated\Modules\Console\Commands;
 
 use Illuminate\Console\Command;
-use Matlord\Modules\RepositoryManager;
-use Matlord\Modules\Repositories\Repository;
+use Caffeinated\Modules\RepositoryManager;
+use Caffeinated\Modules\Repositories\Repository;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -84,7 +84,7 @@ class ModuleSeedCommand extends Command
      * Seed the specific module.
      *
      * @param string $slug
-     * @param \Matlord\Modules\Repositories\Repository $repository
+     * @param \Caffeinated\Modules\Repositories\Repository $repository
      *
      * @return void
      */
