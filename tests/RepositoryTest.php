@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Tests;
+namespace Matlord\Modules\Tests;
 
 use Illuminate\Support\Collection;
 
@@ -9,7 +9,7 @@ class RepositoryTest extends BaseTestCase
     protected $finder;
 
     /**
-     * @var \Caffeinated\Modules\Repositories\Repository
+     * @var \Matlord\Modules\Repositories\Repository
      */
     protected $repository;
 
@@ -122,7 +122,7 @@ class RepositoryTest extends BaseTestCase
         $this->artisan('make:module', ['slug' => 'barbiz', '--quick' => 'quick']);
 
         // Quick and fast way to simulate legacy module folder structure
-        // https://github.com/caffeinated/modules/pull/224
+        // https://github.com/Matlord/modules/pull/224
         rename(realpath(module_path('barbiz')), realpath(module_path()) . '/BarBiz');
         
         file_put_contents(realpath(module_path()) . '/BarBiz/module.json', json_encode(array(
@@ -146,8 +146,8 @@ class RepositoryTest extends BaseTestCase
         $this->artisan('make:module', ['slug' => 'foobar', '--quick' => 'quick']);
 
         // Quick and fast way to simulate legacy Module FolderStructure
-        // https://github.com/caffeinated/modules/pull/279
-        // https://github.com/caffeinated/modules/pull/349
+        // https://github.com/Matlord/modules/pull/279
+        // https://github.com/Matlord/modules/pull/349
         rename(realpath(module_path('foobar')), realpath(module_path()) . '/FooBar');
         file_put_contents(realpath(module_path()) . '/FooBar/module.json', json_encode(array(
             'name' => 'FooBar', 'slug' => 'FooBar', 'version' => '1.0', 'description' => '',
