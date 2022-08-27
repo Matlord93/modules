@@ -3,12 +3,6 @@
     "description": "Laravel Modules",
     "keywords": ["modules", "laravel", "matlord"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Shea Lewis",
-            "email": "shea.lewis89@gmail.com"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
