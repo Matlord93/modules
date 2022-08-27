@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Traits;
+namespace Matlord\Modules\Traits;
 
 trait MigrationTrait
 {

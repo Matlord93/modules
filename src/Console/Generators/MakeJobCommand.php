@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Matlord\Modules\Console\Generators;
 
 
-use Caffeinated\Modules\Console\GeneratorCommand;
+use Matlord\Modules\Console\GeneratorCommand;
 
 class MakeJobCommand extends GeneratorCommand
 {
